@@ -1,0 +1,43 @@
+.app {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--primary-border-radius);
+  transition: all 0.3s;
+}
+button:hover {
+  background-color: var(--secondary-color);
+}
+
+form {
+  background-color: var(--primary-bgColor);
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  gap: 1rem;
+  border-radius: var(--primary-border-radius);
+}
+form input,
+form select {
+  outline: none;
+  border: 1px solid #f8e7d0;
+  border-radius: var(--primary-border-radius);
+  padding: 0.7rem 1rem;
+}
+form input:focus {
+  border: 1px solid var(--primary-color);
+}
+form button {
+  grid-column: 2/3;
+}

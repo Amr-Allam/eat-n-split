@@ -1,0 +1,16 @@
+.friends-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.friends-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.friends-section .close-button {
+  align-self: center;
+}
